@@ -1,7 +1,7 @@
 {
   "name": "kuro-desktop",
   "productName": "Kuro",
-  "version": "9.1.3",
+  "version": "9.2.0",
   "description": "Elegant Microsoft To-Do desktop app (Ao fork)",
   "license": "MIT",
   "repository": "davidsmorais/kuro",
@@ -111,6 +111,8 @@
       "runtime": "org.freedesktop.Platform",
       "runtimeVersion": "25.08",
       "sdk": "org.freedesktop.Sdk",
+      "base": "org.electronjs.Electron2.BaseApp",
+      "baseVersion": "25.08",
       "finishArgs": [
         "--share=network",
         "--share=ipc",
